@@ -1,0 +1,102 @@
+.section4{
+    padding: 5px 0px;
+      h1{
+          margin-top: 10px;
+        color: #333e48;
+        font-size: 1.571em;
+    font-weight: 400;
+    flex-shrink: 0;
+    }
+    .line{
+        position: relative;
+        .line2{
+            background-color: #fed700;
+            width: 200px;
+            height: 2px;
+            position: absolute;
+            top: 0px;
+        }
+    }
+    .carousel{
+        height: 430px;
+        button{
+            background-color: #fed700;
+            border-radius: 37% !important ;
+            height: 10px;
+            width: 30px;
+            
+        }
+    }
+    .productItem4{
+        height: 180px;
+        transition: 0.5s;
+        border-right: 1px solid rgb(165, 165, 165);
+                &:hover{
+                    // box-shadow: 0 0 6px 0 rgb(1 1 1 / 30%); 
+                    button{
+                        background-color: #fed700;
+                    }
+                }
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                .card-text1{
+                    width: 200px;
+                }
+               
+                .card-title{
+                    font-weight: 500;
+                    color: #768B9E;
+                }
+                h5{
+                    font-weight: 700;
+                    color: #0062bd;
+                    font-size: 15px;
+                }
+                del{
+                    color: #768b9e;
+                    font-size: 15px;
+                    line-height: 1.5em;
+                }
+                p.card-text{
+                    height: 15px;
+                    color: #dc3545;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                button{
+                    margin-top: 5px;
+                    border-radius: 100%;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #eaeaea;
+                    transition: 0.5s;
+                    &:hover{
+                        button{
+                            background-color: #fed700;
+                            
+                        }
+                    }
+                    button{
+                        border: none;
+                        height: 35px;
+                        width: 35px;
+                        margin-bottom: 5px;
+                        .tick{
+                            color: green;
+                        }
+                    }
+                   
+                }
+                .link{
+                    text-decoration: none;
+                   color: #768B9E;
+                    font-weight: 600;
+                    
+                }
+    }
+    .img{
+        width: 100%;
+    }
+}

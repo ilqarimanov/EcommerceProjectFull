@@ -1,0 +1,61 @@
+.allproducts{
+    table{
+        border-radius: 16px !important;
+        border: 2px solid #ddd !important;
+        background-color: rgb(248, 246, 246);
+        border-collapse:separate;
+        
+        td{
+            padding: 10px 70px 10px 50px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+            margin: 0px 2px;
+            transition: 0.3s;
+            &:hover{
+                background-color: #ddd;
+            }
+        }
+        th{
+            padding: 18px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .tableend{
+            border: none !important;
+            color: red;
+        }
+    }
+    .allProductsItem{
+        height: 315px !important; 
+        transition: 0.5s;
+        &:hover{
+            box-shadow:20px 20px 50px grey;  
+            button{
+                background-color: #fed700;
+            }
+        }
+        .card-title{
+            font-weight: 500;
+            color: #768B9E;
+        }
+        h5{
+            font-weight: 700;
+            color: #0062bd;
+            font-size: 15px;
+        }
+  
+        p.card-text{
+            color: #dc3545;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button{
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            background-color: #eaeaea;
+            border: none;
+            transition: 0.5s;
+        }
+    
+}
+}
